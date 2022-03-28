@@ -7,8 +7,8 @@ written in python and applicable for tkinter windows. This is particularly
 useful when importing heavy python modules. The program is not perfect 
 since tkinter is not thread safe and may create the following errors if not
 handled properly.
-1.Tcl_AsyncDelete: async handler deleted by the wrong thread
-2.RuntimeError: main thread is not in main loop
+1. Tcl_AsyncDelete: async handler deleted by the wrong thread
+2. RuntimeError: main thread is not in main loop
 
 
 Initialization:
